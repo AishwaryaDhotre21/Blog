@@ -28,7 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '0.0.0.0'
-    'deploy-django-blog.herokuapp.com'
+    'deploy-django-blog.herokuapp.com',
+    '127.0.0.1'
 ]
 
 
