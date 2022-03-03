@@ -27,9 +27,12 @@ SECRET_KEY = 'django-insecure-a7205rsr&+k!ag8hsf7!c5a=e47ajfgs=a5-%*!8!$5prvkcla
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '0.0.0.0'
-    'https://deploy-django-blog.herokuapp.com/'
-    '127.0.0.1'
+    '*',
+    'http://deploy-django-blog.herokuapp.com/',
+    'https://deploy-django-blog.herokuapp.com/',
+    'deploy-django-blog.herokuapp.com',
+    'deploy-django-blog.herokuapp.com/'
+    '127.0.0.1',
 ]
 
 
